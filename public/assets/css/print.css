@@ -1,0 +1,22 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+
+.navbar-top {
+    padding-top: 0px;
+}
+
+.content {
+    padding: 0px!important;
+}
+
+.panel-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel {
+    page-break-after: always;
+}

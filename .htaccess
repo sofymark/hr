@@ -1,0 +1,26 @@
+Header set Access-Control-Allow-Origin "*"
+Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type, authorization"
+Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS"
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+    
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+    
+    RewriteCond %{REQUEST_URI} !(\.appcache|\.json|\.html|\.css|\.js|\.png|\.jpg|\.gif|\.svg|\.ogg|\.woff|.woff2|.ttf|robots\.txt|\.pdf|\.zip|\.doc|\.docx|\.ppt|\.pptx)$ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+    
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} !^/public/
+   
+    RewriteRule ^(assets|css|js|images|media|construct|avatars|storage)/(.*)$ public/$1/$2 [L,NC]
+
+</IfModule>

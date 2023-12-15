@@ -1,0 +1,25 @@
+
+legend {
+    margin-top: 40px;
+}
+
+.picker--opened .picker__holder {
+    top: -170px!important;
+}
+.wizard > .actions {
+    margin-top: 10px;
+}
+.container{
+	max-width: 1024px;
+    margin: 0 auto;
+}
+.spacer-down{
+	margin-bottom:30px;
+}
+.alert{
+	margin-bottom: 0px!important;	
+}
+table tr.list-data td {
+    padding-left: 33px!important;
+}
+

@@ -1,0 +1,7 @@
+.select2-results__option[aria-disabled=true] {
+  display: none;
+}
+
+.select2-results__option[aria-disabled=false] {
+  display: block;
+}

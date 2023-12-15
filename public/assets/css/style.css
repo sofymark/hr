@@ -1,0 +1,151 @@
+.login-container .page-container .login-form {
+    width: 98%;
+    max-width: 450px;
+    padding: 10px 40px 30px;
+}
+.login-form h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #444;
+    letter-spacing: 0.01em;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover{
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+}
+.bulk-actions ul.dropdown-menu{
+    z-index: 99999;
+}
+table button{
+    background:none;
+    border:none;
+}
+form a, a.stable{
+    color:#333333;
+}
+.fab-menu-top-right {
+    margin-top: -120px;
+}
+.no-breadcrumb .fab-menu-top-right {
+    margin-top: -56px;
+}
+th a.stable{
+    color:#fff;
+}
+td span.text-success {
+    color: #1E88E5 !important;
+}
+td .checkbox{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+td .checker, td .checker span, td .checker input{
+    width: 16px;
+    height: 16px;
+}
+.dropdown-menu > li > a.active{
+    background-color: #f5f5f5;
+}
+.form-group-translation{
+    display:none;
+}
+.form-group-translation.group-en{
+    display:block;
+}
+.label-default{
+    margin-left:10px;
+}
+.col-md-8 .panel-heading, .col-md-4 .panel-heading{
+    padding-left:0;
+    border-bottom: 1px dotted #ddd;
+    margin-bottom:20px;
+}
+.thumb button{
+    margin-top:20px;
+}
+.panel-footer{
+    padding:20px 0;
+}
+.content .game .thumbnail{
+    padding:0;
+    border-radius:0;
+}
+.content .game .thumb{
+    text-align: center;
+}
+.content .thumbnail .thumb img{
+    border-radius: 0;
+}
+.content .caption-overflow span{
+    left:0;
+}
+.heading-elements ul.heading-text.availang{
+    float:none;
+    margin-left:0;
+}
+.thumbnail .panel-footer {
+    margin: 0;
+    border-radius:0;
+    padding: 5px 0;
+}
+.game span.game-category-flag{
+    position: absolute;
+    width: auto;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+}
+.navbar-left a.play{
+    margin:5px 20px;
+}
+.full-screen{
+    background-color: #000;
+}
+.full-screen .navbar-brand {
+    font-size: 28px;
+    line-height: 20px;
+    color: #fff;
+}
+.full-screen .navbar-brand:hover{
+    color: #fff;
+}
+.full-screen .c-close{
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    color: #fff;
+}
+.full-screen .c-close i{
+    font-size: 35px;
+}
+.nav-tabs.nav-tabs-solid > .active > a:after, .nav-tabs.nav-tabs-solid > .active > a:hover:after, .nav-tabs.nav-tabs-solid > .active > a:focus:after {
+    background-color: #0b76cc;
+}
+.nav-tabs.nav-tabs-solid a {
+    text-transform:initial;
+}
+label{
+    color: #a5a5a5;
+    margin-bottom: 2px;
+}
+.right-image .thumb img{
+    max-height:200px;
+}
+.page-title {
+    padding: 20px 35px 20px 0;
+}
+.profile-cover-img{
+    background-image: url('../images/login_cover.jpg');
+}
+.profile-cover-img.doctor{
+    background-image: url('../images/risk.jpg');
+}
+.profile-cover-img.patient{
+    background-image: url('../images/event.jpg');
+}
